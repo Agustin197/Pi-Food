@@ -1,0 +1,24 @@
+.container {
+    text-align: justify;
+    background-image: url('../../images/top-view-of-bowl-with-lentils-and-variety-of-condiments.jpg');
+    padding-left: 10vw;
+    padding-right: 45vw;
+    height: 100%;
+    background-size: cover;
+    color: whitesmoke;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.container h3 {
+    color: black;
+    padding-top: 30vh;
+}
+
+.loading {
+    padding-top: 30vh;
+}
+
+.container p {
+    font-size: 1.1em;
+}

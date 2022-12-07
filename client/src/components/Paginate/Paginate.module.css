@@ -1,0 +1,22 @@
+.paginado {
+    display: inline-flex;
+    list-style-type: none;
+    margin-top: 5%;
+    color: rgba(0, 0, 0, 0);
+}
+
+.paginado button {
+    color: whitesmoke;
+    background-color: rgba(87, 41, 124, 0.64);
+    padding: 0.4rem;
+    width: 1.5rem;
+    text-align: center;
+    border-radius: 9rem;
+    line-height: 0.7rem;
+}
+
+.paginado button:focus{
+    background-color: rgb(106, 0, 255);
+    font-size: 0.9em;
+    box-shadow: white 0em 0em 0.3em 0.1em;
+}

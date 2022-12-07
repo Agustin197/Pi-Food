@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(137, 43, 226, 0.358);
+}
+h3 {
+    color: whitesmoke;
+    text-decoration-line: none;
+    text-decoration: none;
+}

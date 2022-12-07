@@ -1,0 +1,70 @@
+.container {
+    padding-top: 20vh;
+    background-image: url('../../images/pexels-lukas-349609.jpg');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    background-color: rgba(32, 218, 203, 0.332);
+    border-radius: 1rem;
+    width: max-content;
+    
+    text-align: right;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(244, 232, 255);
+    text-shadow: black 0.1em 0.2em 0.3em;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.6rem;
+    color: red;
+}
+
+.diets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.x {
+    border: none;
+    border-radius: 9999px;
+    width: 18px;
+}
+
+.butt {
+    border-radius: 20px;
+}
+.btn_off {
+    display:none;
+}
+.btn_on {
+    background-color: darkred;
+    color: white;
+    display:block;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}

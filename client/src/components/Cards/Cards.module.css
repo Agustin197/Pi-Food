@@ -1,0 +1,44 @@
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: whitesmoke;
+    text-shadow: rgba(17, 208, 0, 0.934) 0em 0em 0.3em;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            300px,
+            1fr
+        )
+    );
+    grid-gap: 15px;
+    margin-right: 5vw;
+    margin-left: 6vw;
+    margin-bottom: 3vh;
+}
+
+.filters {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            300px,
+            1fr
+        )
+    );
+    grid-gap: 15px;
+    padding-top: 2rem;
+}
+
+.reload {
+    color: white;
+    background-color:rgba(160, 68, 247, 0.551);
+    border-radius: 2rem;
+    padding: 0.4rem;
+
+}
