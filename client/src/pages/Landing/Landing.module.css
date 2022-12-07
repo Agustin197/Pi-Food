@@ -11,8 +11,8 @@
 .fondo button{
     color: white;
     font-size: 2em;
-    background: rgb(239,108,0);
-    background: radial-gradient(circle, rgba(239,108,0,1) 38%, rgba(0,0,0,1) 76%); 
+    background: rgb(239,124,0);
+    background: radial-gradient(circle, rgba(239,124,0,1) 13%, rgba(0,117,255,1) 84%);  
     border: none;
     border-radius: 5em;
     

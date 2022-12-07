@@ -7,7 +7,8 @@
 
 .search button {
     color: whitesmoke;
-    background-color: rgba(165, 42, 42, 0.589);
+    background: rgb(239,124,0);
+    background: radial-gradient(circle, rgba(239,124,0,1) 13%, rgba(0,117,255,1) 84%);
     border-radius: 1.2rem;
     line-height: 1.2rem;
     padding: 0.3rem;
