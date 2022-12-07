@@ -6,7 +6,7 @@ const Nav = ()=>{
         <>
         <div className={styles.container}>
             <hr></hr>
-            <Link to="/"><h3>⇱</h3></Link>
+            <Link to="/"><h3>GO BACK</h3></Link>
             <hr></hr>
             <Link to="/home"><h3>HOME</h3></Link>
             <hr></hr>

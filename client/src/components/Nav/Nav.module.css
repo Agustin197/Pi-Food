@@ -9,10 +9,10 @@
     top: 0;
     left: 0;
     z-index: 100;
-    background-color: rgba(137, 43, 226, 0.358);
+    background-color: rgba(105,105,105,0.3);
 }
 h3 {
-    color: whitesmoke;
+    color: rgb(239,108,0);
     text-decoration-line: none;
     text-decoration: none;
 }

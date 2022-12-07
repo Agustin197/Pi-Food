@@ -1,11 +1,11 @@
 .Home {
-    background-image: url('../../images/food-with-ingredients.jpg');
+    background-image: url('../../images/home.jpg');
     filter: brightness(100%);
     width: 100%;
     height: 100%;
     background-size: cover;
     padding-top: 6em;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 
 button{
