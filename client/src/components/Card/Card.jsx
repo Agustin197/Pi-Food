@@ -13,7 +13,7 @@ export default function Card({ image, title, diets, id }) {
       <div className={styles.diets}>
           {diets && diets.map((e) => {
             return (
-                <li key={e.id}>✅ {e}</li>
+                <li key={e.id}> ✔ {e}</li>
             )
           }
           )}

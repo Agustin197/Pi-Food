@@ -27,7 +27,7 @@ export default function Detail() {
                 <img className="imgDetail" src={recipeDetail[0].image} alt='recipe' height="250vw" width="330vh" />
                 <p>DIETS TYPES: {recipeDetail[0].diets?.map(e=>{
                     return (
-                        <p key={e.id}>✅ {e}</p>
+                        <p key={e.id}>✔ {e}</p>
                     )
                     })}</p>
                 <p>DISH TYPES: {recipeDetail[0].dishTypes?.map(e => {

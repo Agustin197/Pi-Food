@@ -58,7 +58,8 @@ export default function Cards() {
 
   return (
     <>
-      <h1>RECIPES</h1>
+      
+      <h1>RECIPES HENRY</h1>
       <SearchBar setCurrentPage={setCurrentPage}/>
       <button className={styles.reload} onClick={(e)=>{handleClick(e)}}>RELOAD RECIPES</button>
       <div className={styles.filters}>
