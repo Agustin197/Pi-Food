@@ -12,7 +12,7 @@ router.get('/', async (req, res, next) => {
         let recipeName = totalRecipes.filter((d) => d.title.toLowerCase().includes(title.toLocaleLowerCase())) //
         recipeName.length ? res.status(200).send(recipeName) : res.status(404).send('Recipe not found')
         } else {
-        res.status(200).send(totalRecipes)
+        res.status(200).send(totalRecipes,)
         }
     } catch (error) {
        next(error)
